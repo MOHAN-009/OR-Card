@@ -1,0 +1,78 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html{
+    background-color: rgb(83, 130, 211);
+}
+
+body{
+    min-height: 150vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 344px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    margin-inline: auto;
+    background-color: whitesmoke;
+    border-radius: 1.55rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    
+}
+
+.card-image{
+    padding-bottom: 1.5rem;
+    position: relative;   
+}
+
+.img{
+    border-radius: 0.55rem;
+    margin: auto;
+}
+
+h1{
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 400px;
+
+}
